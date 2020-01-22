@@ -1,6 +1,6 @@
 
 /*Insert data*/
-INSERT INTO base.planet(name,rotation_period,orbital_period,diameter,climate,gravity,terrain,surface_water,population,created_date,updated_date,url,id) VALUES
+INSERT INTO planets(name,rotation_period,orbital_period,diameter,climate,gravity,terrain,surface_water,population,created_at,updated_at,url,id) VALUES
 ('Alderaan','24','364','12500','temperate','1 standard','grasslands, mountains','40','2000000000','2014-12-10 11:35:48.479000Z','2014-12-20 20:58:18.420000Z','https://swapi.co/api/planets/2/',2),
 ('Yavin IV','24','4818','10200','temperate, tropical','1 standard','jungle, rainforests','8','1000','2014-12-10 11:37:19.144000Z','2014-12-20 20:58:18.421000Z','https://swapi.co/api/planets/3/',3),
 ('Hoth','23','549','7200','frozen','1.1 standard','tundra, ice caves, mountain ranges','100',null,'2014-12-10 11:39:13.934000Z','2014-12-20 20:58:18.423000Z','https://swapi.co/api/planets/4/',4),
@@ -64,7 +64,7 @@ INSERT INTO base.planet(name,rotation_period,orbital_period,diameter,climate,gra
 ('Jakku',null,null,null,null,null,'deserts',null,null,'2015-04-17 06:55:57.556495Z','2015-04-17 06:55:57.556551Z','https://swapi.co/api/planets/61/',61);
 
 
-INSERT INTO base.people(name,height,mass,hair_color,skin_color,eye_color,birth_year,gender,planet_id,created_date,updated_date,url,id) VALUES
+INSERT INTO people(name,height,mass,hair_color,skin_color,eye_color,birth_year,gender,planet_id,created_at,updated_at,url,id) VALUES
 ('Luke Skywalker','172','77','blond','fair','blue','19BBY','male',1,'2014-12-09 13:50:51.644000Z','2014-12-20 21:17:56.891000Z','https://swapi.co/api/people/1/',1),
 ('C-3PO','167','75','n/a','gold','yellow','112BBY','n/a',1,'2014-12-10 15:10:51.357000Z','2014-12-20 21:17:50.309000Z','https://swapi.co/api/people/2/',2),
 ('R2-D2','96','32','n/a','white, blue','red','33BBY','n/a',8,'2014-12-10 15:11:50.376000Z','2014-12-20 21:17:50.311000Z','https://swapi.co/api/people/3/',3),
